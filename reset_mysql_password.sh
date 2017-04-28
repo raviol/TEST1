@@ -7,4 +7,4 @@
 #sudo service mysql stop
 #sudo service mysql start
 mysql -uroot -p123456 -e "create database pageone"
-mysql -uroot -p123456 pageone < pages.sql
+mysql -uroot -p123456 pageone < /var/lib/mysql/pages.sql
